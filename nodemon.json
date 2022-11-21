@@ -1,0 +1,5 @@
+{
+  "verbose": true,
+  "ignore": ["dist/*"],
+   "ext": "html,js,css"
+}
