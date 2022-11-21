@@ -1,0 +1,74 @@
+<!doctype html>
+<style type="text/css">
+    #container {
+        border-radius: 100px;
+        padding: 10px;
+        height: 20px;
+        width: 40px;
+    }
+
+    body {
+        background-color: #ddd;
+    }
+
+    button {
+        border: none;
+    }
+
+    * {
+        transition: all 1s;
+    }
+
+    .con {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .cont {
+        background-color: #898989;
+        width: 40px;
+        height: 20px;
+        border-radius: 100px;
+    }
+
+    .circle {
+        width: 20px;
+        height: 20px;
+        background-color: #fff;
+        border-radius: 100px;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: #f27a1a;
+        position: relative;
+        left: 53%;
+        transform: scale(1.1);
+
+    }
+
+    .activeForCont {
+        background-color: #ecb589;
+        display: flex;
+    }
+
+    .unactive {
+        background-color: #fff;
+    }
+
+</style>
+
+<body>
+<div id="container">
+    <div class="con">
+        <div class="cont" id="cont">
+            <div class="circle" id="circle"></div>
+        </div>
+    </div>
+</div>
+<script src="popup.js"></script>
+</body>

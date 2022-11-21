@@ -1,0 +1,42 @@
+{
+  "name": "Trendyol Search Enhancer",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "This extension is created to enhance the search of trendyol.com",
+  "homepage_url": "https://trendyol.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icons/icon16.png",
+    "default_title": "Extension Settings",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "permissions": [
+    "https://www.trendyol.com/*",
+    "https://trendyol.com/*",
+    "tabs",
+    "storage",
+    "webNavigation"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.trendyol.com/*",
+        "https://trendyol.com/*"
+      ],
+      "js": [
+        "js/jquery/jquery.min.js",
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
