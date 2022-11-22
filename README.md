@@ -19,7 +19,7 @@ To install from sources:
 4. Click Load unpacked extension.
 5. Select the `dist` directory.
 
-If you dont have `make ` installed on your device, please run this command to install it:
+If you dont have `make ` installed on your device, run this command to build the extension:
 Or, simply download the extension from the release section.
 
 ```bash
