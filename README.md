@@ -4,7 +4,8 @@ An extension that enhances your search experience on Trendyol.com by automatical
 
 Author
 ------
-It's developed by [Fatih Yavuz](https://twitter.com/fthdev) former Backend Engineer at Trendyol Search
+It's developed by [Fatih Yavuz](https://twitter.com/fthdev) former Backend Engineer at Trendyol Search.
+This repository does not represent the works or opinions of Trendyol.com or other people working at it.
 
 
 Usage
@@ -21,4 +22,4 @@ To install from sources:
 
 Licence
 -------
-This project is licensed under the terms of the Do Whatever Fuck You Want License.
+This project is licensed under the terms of the Do What the Fuck You Want To Public License.
