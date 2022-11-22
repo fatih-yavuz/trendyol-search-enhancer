@@ -19,7 +19,12 @@ To install from sources:
 4. Click Load unpacked extension.
 5. Select the `dist` directory.
 
+If you dont have `make ` installed on your device, please run this command to install it:
+Or, simply download the extension from the release section.
 
+```bash
+rm -rf dist; mkdir dist 2>/dev/null; cp -R build/extension_template/* dist/; npm install && npx webpack; node build/scripts/post-build.js
+```
 Licence
 -------
 This project is licensed under the terms of the Do What the Fuck You Want To Public License.
